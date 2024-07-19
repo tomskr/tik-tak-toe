@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function Square(){
+function Square({value}){
   return (<button 
             className="square"
           >
